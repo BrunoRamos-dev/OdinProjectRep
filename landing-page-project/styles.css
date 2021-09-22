@@ -1,6 +1,5 @@
 
-
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -14,10 +13,13 @@ body{
 .bg3 {
     background-color: #E5E7EB;
 }
+
 .header {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .header-logo, .header-links {
@@ -25,44 +27,64 @@ body{
     align-items: center;
 }
 
-.header-logo{
+.header-logo {
     font-size: 24px;
     color: #E5E7EB;
     padding-left: 250px;
-    
 }
+
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
     padding-right: 250px;
 }
 
-
-.section-1{
+.section-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
 }
 
-.section-1-container{
+.section-1-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+    padding-left: 650px;
+    width: 500px;
+    gap: 10px;
 }
 
-.section-1-title{
+.section-1-title {
     margin: 0;
     padding: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 
-.section-1-content{
+.section-1-content {
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
 }
 
 #button1 {
-    padding: 2px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: #3882f6;
+    
+}
+
+.section-1-image {
+    display: flex;
+    width: 800px;
+    
 }
 
 .section-2 {
@@ -71,13 +93,15 @@ body{
     justify-content: space-between;
 }
 
+.bg2 {
+    background-color: #E5E7EB;
+}
+
 .section-2-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-
-
 
 ul {
     list-style: none;
@@ -85,4 +109,3 @@ ul {
     padding: 0;
     gap: 16px
 }
-
