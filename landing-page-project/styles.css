@@ -1,4 +1,5 @@
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -23,11 +24,13 @@ body {
 }
 
 .header-logo, .header-links {
+    
     display: flex;
     align-items: center;
 }
 
 #header-logo {
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #E5E7EB;
     padding-left: 250px;
@@ -35,6 +38,7 @@ body {
 }
 
 .header-links {
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     padding-right: 250px;
@@ -57,11 +61,14 @@ body {
 }
 
 .section-1-title {
+    display: flex;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
     color: #f9faf8;
+    flex-wrap: wrap;
 }
 
 .section-1-content {
@@ -73,6 +80,7 @@ body {
 }
 
 #button1 {
+    font-family: 'Roboto', sans-serif;
     color: #E5E7EB;
     background-color: #3882f6;
     padding: 6px 20px;
@@ -104,6 +112,7 @@ body {
 }
 
 .section-2-title {
+    font-family: 'Roboto', sans-serif;
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
@@ -121,6 +130,7 @@ body {
 }
 
 .subtitle {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
     width: 250px;
@@ -147,6 +157,7 @@ img {
 }
 
 .section-3-quote {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
     width: 700px;
@@ -154,6 +165,7 @@ img {
 }
 
 .section-3-author {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     font-size: 16px;
     font-weight: bold;
@@ -176,11 +188,13 @@ img {
     background-color:#3882f6;
 }
 .section-4-content{
+    
     display: flex;
     flex-direction: column;
 }
 
 #button2{
+    font-family: 'Roboto', sans-serif;
    color: #E5E7EB;
    background-color: #3882f6;
     padding: 6px 20px;
@@ -190,14 +204,17 @@ img {
 }
 
 .section-4-title{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 .section-4-text{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
 .footer {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
